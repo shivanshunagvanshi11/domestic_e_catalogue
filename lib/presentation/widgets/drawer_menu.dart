@@ -93,7 +93,7 @@ class DrawerMenu extends StatelessWidget {
           style: TextStyle(
             color: isSelected ? Colors.white : AppColors.darkGrey,
             fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-            fontSize: 16,
+            fontSize: 17,
           ),
         ),
         onTap: onTap,
